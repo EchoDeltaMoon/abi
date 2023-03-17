@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- import stylesheet -->
+<link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+
+<div class="center">
+  <p>What is your name?</p>
+  <input id="nameInput" type="text" placeholder="First name">
+  <button onclick="saveText();window.location.href='text.html';">Submit</button>
+</div>
+
+<!-- import javascript file -->
+<script>
+function saveText(){
+    let name = document.getElementById("nameInput").value;
+    localStorage.setItem("userName", name);
+    console.log(localStorage.getItem("userName"));
+}
+</script>
+
+</body>
+<html>

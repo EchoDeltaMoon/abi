@@ -1,0 +1,30 @@
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.button {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    text-align: center;
+    margin: 4px 2px;
+    background-color: #ffffff;
+    color: black;
+    border: none;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 400px;
+}
+
+.button:hover {opacity: 1}
+
+.textStyle {
+  color: #ed1eee;
+}
