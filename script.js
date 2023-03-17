@@ -64,7 +64,7 @@ async function typeLines(
   );
   await typeLines(
     document.body,
-    [userName + '&nbsp; captions the post; The real me.', 'They feel nervous.'],
+    [userName + '\xa0 captions the post; The real me.', 'They feel nervous.'],
     '<span data-line-content></span><br></br>',
     400,
     30,
